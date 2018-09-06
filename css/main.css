@@ -12,11 +12,15 @@ button {
   font-size: 1.5em;
 }
 
-input {
+input, select {
   font-size: 1.5em;
+  width: 80%;
+  margin-top: 2%;
+  margin-top: 2%;
 }
 
-input[submit] {
+input[type=submit] {
+  width: 100%;
   font-size: 1.5em;
   color: red;
 }
@@ -36,4 +40,9 @@ p {
   border: 1px solid green;
   background-color: yellow;
   padding: 2%;
+}
+
+#form-wrapper {
+  display: flex;
+  align-items: center;
 }
