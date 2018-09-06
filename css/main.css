@@ -1,3 +1,39 @@
 body {
   font-family: Palatino;
 }
+
+form {
+  width: 90%;
+  border: 1px solid;
+  padding: 2%;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+input[submit] {
+  font-size: 1.5em;
+  color: red;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+p {
+  border: 1px solid green;
+  padding: 2%;
+  color: white;
+  background: black;
+}
+
+#reading-list {
+  border: 1px solid green;
+  background-color: yellow;
+  padding: 2%;
+}

@@ -20,9 +20,6 @@ const handleFormSubmit = function (event) {
 
  //reset
   const form = document.querySelector('#new-item-form').reset()
-
-
-  console.log(resultList);
 };
 
 const handleRemoveClick = function (event) {
