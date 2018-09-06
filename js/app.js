@@ -6,5 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const handleFormSubmit = function (event) {
   event.preventDefault();
-  console.log(event.target.title);
+  // console.log(event.target.title.value);
+  // console.log(event.target.author.value);
+  // console.log(event.target.category.value);
+  const output = `Title: ${event.target.title.value} Author: ${event.target.author.value} Category: ${event.target.category.value}`;
+  const resultList =  document.querySelector('#reading-list');
+  console.log(resultList);
+  resultList.textContent = output;
 };
